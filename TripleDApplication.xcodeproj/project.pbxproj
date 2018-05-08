@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		361C2B112090FEDF008C60EC /* DinerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C2B102090FEDF008C60EC /* DinerTableViewController.swift */; };
+		361C2B132090FFAF008C60EC /* DinerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C2B122090FFAF008C60EC /* DinerTableViewCell.swift */; };
+		361C2B1920911B23008C60EC /* RestuarantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C2B1820911B23008C60EC /* RestuarantDetailViewController.swift */; };
+		362A623020752E7900573FFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A622F20752E7900573FFE /* AppDelegate.swift */; };
+		362A623520752E7900573FFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362A623320752E7900573FFE /* Main.storyboard */; };
+		362A623720752E7900573FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 362A623620752E7900573FFE /* Assets.xcassets */; };
+		362A623A20752E7900573FFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362A623820752E7900573FFE /* LaunchScreen.storyboard */; };
+		362A624520752E7900573FFE /* TripleDApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A624420752E7900573FFE /* TripleDApplicationTests.swift */; };
+		362A625020752E7900573FFE /* TripleDApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A624F20752E7900573FFE /* TripleDApplicationUITests.swift */; };
+		362A625E2075307600573FFE /* main_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 362A625D2075307600573FFE /* main_logo.png */; };
+		362A626020753A0600573FFE /* TripleDMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A625F20753A0600573FFE /* TripleDMainViewController.swift */; };
+		366E55C42093B14800EBFE24 /* NearMeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366E55C32093B14800EBFE24 /* NearMeDetailViewController.swift */; };
+		366E55C82093B21E00EBFE24 /* NearMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366E55C72093B21E00EBFE24 /* NearMeTableViewCell.swift */; };
+		366E55CC20979BFD00EBFE24 /* PinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366E55CB20979BFD00EBFE24 /* PinAnnotation.swift */; };
+		36CAB1B8209271F2004FBA6F /* DinerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CAB1B7209271F2004FBA6F /* DinerDetailViewController.swift */; };
+		36CAB1BA20929891004FBA6F /* NearMeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CAB1B920929891004FBA6F /* NearMeTableViewController.swift */; };
+		36CAB1BD20929BA3004FBA6F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CAB1BC20929BA3004FBA6F /* CoreLocation.framework */; };
+		36E74084209A4C5C0014BA41 /* NearMe50TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E74083209A4C5C0014BA41 /* NearMe50TableViewController.swift */; };
+		36E74088209A51130014BA41 /* NearMeTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E74087209A51130014BA41 /* NearMeTabBarVC.swift */; };
+		36F03A8320882F3A00845A6C /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F03A8220882F3A00845A6C /* RestaurantModel.swift */; };
+		36F03A8520882F6A00845A6C /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F03A8420882F6A00845A6C /* RestaurantTableViewController.swift */; };
+		36F28CF3208A896200D6BD62 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F28CF2208A896200D6BD62 /* RestaurantTableViewCell.swift */; };
+		36F28CF5208E842A00D6BD62 /* smallLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F28CF4208E842900D6BD62 /* smallLogo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		362A624120752E7900573FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 362A622420752E7900573FFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 362A622B20752E7900573FFE;
+			remoteInfo = TripleDApplication;
+		};
+		362A624C20752E7900573FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 362A622420752E7900573FFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 362A622B20752E7900573FFE;
+			remoteInfo = TripleDApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		361C2B102090FEDF008C60EC /* DinerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinerTableViewController.swift; sourceTree = "<group>"; };
+		361C2B122090FFAF008C60EC /* DinerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinerTableViewCell.swift; sourceTree = "<group>"; };
+		361C2B1820911B23008C60EC /* RestuarantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestuarantDetailViewController.swift; sourceTree = "<group>"; };
+		362A622C20752E7900573FFE /* TripleDApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripleDApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		362A622F20752E7900573FFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		362A623420752E7900573FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		362A623620752E7900573FFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		362A623920752E7900573FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		362A623B20752E7900573FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		362A624020752E7900573FFE /* TripleDApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripleDApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		362A624420752E7900573FFE /* TripleDApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripleDApplicationTests.swift; sourceTree = "<group>"; };
+		362A624620752E7900573FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		362A624B20752E7900573FFE /* TripleDApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripleDApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		362A624F20752E7900573FFE /* TripleDApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripleDApplicationUITests.swift; sourceTree = "<group>"; };
+		362A625120752E7900573FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		362A625D2075307600573FFE /* main_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_logo.png; sourceTree = "<group>"; };
+		362A625F20753A0600573FFE /* TripleDMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripleDMainViewController.swift; sourceTree = "<group>"; };
+		366E55C32093B14800EBFE24 /* NearMeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeDetailViewController.swift; sourceTree = "<group>"; };
+		366E55C72093B21E00EBFE24 /* NearMeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearMeTableViewCell.swift; sourceTree = "<group>"; };
+		366E55CB20979BFD00EBFE24 /* PinAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
+		36CAB1B7209271F2004FBA6F /* DinerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinerDetailViewController.swift; sourceTree = "<group>"; };
+		36CAB1B920929891004FBA6F /* NearMeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeTableViewController.swift; sourceTree = "<group>"; };
+		36CAB1BC20929BA3004FBA6F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		36E74083209A4C5C0014BA41 /* NearMe50TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMe50TableViewController.swift; sourceTree = "<group>"; };
+		36E74087209A51130014BA41 /* NearMeTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeTabBarVC.swift; sourceTree = "<group>"; };
+		36F03A8220882F3A00845A6C /* RestaurantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
+		36F03A8420882F6A00845A6C /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		36F28CF2208A896200D6BD62 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		36F28CF4208E842900D6BD62 /* smallLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallLogo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		362A622920752E7900573FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CAB1BD20929BA3004FBA6F /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362A623D20752E7900573FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362A624820752E7900573FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		362A622320752E7900573FFE = {
+			isa = PBXGroup;
+			children = (
+				362A622E20752E7900573FFE /* TripleDApplication */,
+				362A624320752E7900573FFE /* TripleDApplicationTests */,
+				362A624E20752E7900573FFE /* TripleDApplicationUITests */,
+				362A622D20752E7900573FFE /* Products */,
+				36CAB1BB20929BA3004FBA6F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		362A622D20752E7900573FFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				362A622C20752E7900573FFE /* TripleDApplication.app */,
+				362A624020752E7900573FFE /* TripleDApplicationTests.xctest */,
+				362A624B20752E7900573FFE /* TripleDApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		362A622E20752E7900573FFE /* TripleDApplication */ = {
+			isa = PBXGroup;
+			children = (
+				362A622F20752E7900573FFE /* AppDelegate.swift */,
+				362A623320752E7900573FFE /* Main.storyboard */,
+				36E74087209A51130014BA41 /* NearMeTabBarVC.swift */,
+				36E74083209A4C5C0014BA41 /* NearMe50TableViewController.swift */,
+				366E55C32093B14800EBFE24 /* NearMeDetailViewController.swift */,
+				366E55C72093B21E00EBFE24 /* NearMeTableViewCell.swift */,
+				36CAB1B920929891004FBA6F /* NearMeTableViewController.swift */,
+				36CAB1B7209271F2004FBA6F /* DinerDetailViewController.swift */,
+				361C2B102090FEDF008C60EC /* DinerTableViewController.swift */,
+				361C2B122090FFAF008C60EC /* DinerTableViewCell.swift */,
+				361C2B1820911B23008C60EC /* RestuarantDetailViewController.swift */,
+				366E55CB20979BFD00EBFE24 /* PinAnnotation.swift */,
+				36F28CF2208A896200D6BD62 /* RestaurantTableViewCell.swift */,
+				36F03A8420882F6A00845A6C /* RestaurantTableViewController.swift */,
+				362A625F20753A0600573FFE /* TripleDMainViewController.swift */,
+				36F03A8220882F3A00845A6C /* RestaurantModel.swift */,
+				362A623620752E7900573FFE /* Assets.xcassets */,
+				36F28CF4208E842900D6BD62 /* smallLogo.png */,
+				362A625D2075307600573FFE /* main_logo.png */,
+				362A623820752E7900573FFE /* LaunchScreen.storyboard */,
+				362A623B20752E7900573FFE /* Info.plist */,
+			);
+			path = TripleDApplication;
+			sourceTree = "<group>";
+		};
+		362A624320752E7900573FFE /* TripleDApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				362A624420752E7900573FFE /* TripleDApplicationTests.swift */,
+				362A624620752E7900573FFE /* Info.plist */,
+			);
+			path = TripleDApplicationTests;
+			sourceTree = "<group>";
+		};
+		362A624E20752E7900573FFE /* TripleDApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				362A624F20752E7900573FFE /* TripleDApplicationUITests.swift */,
+				362A625120752E7900573FFE /* Info.plist */,
+			);
+			path = TripleDApplicationUITests;
+			sourceTree = "<group>";
+		};
+		36CAB1BB20929BA3004FBA6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36CAB1BC20929BA3004FBA6F /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		362A622B20752E7900573FFE /* TripleDApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 362A625420752E7900573FFE /* Build configuration list for PBXNativeTarget "TripleDApplication" */;
+			buildPhases = (
+				362A622820752E7900573FFE /* Sources */,
+				362A622920752E7900573FFE /* Frameworks */,
+				362A622A20752E7900573FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripleDApplication;
+			productName = TripleDApplication;
+			productReference = 362A622C20752E7900573FFE /* TripleDApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		362A623F20752E7900573FFE /* TripleDApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 362A625720752E7900573FFE /* Build configuration list for PBXNativeTarget "TripleDApplicationTests" */;
+			buildPhases = (
+				362A623C20752E7900573FFE /* Sources */,
+				362A623D20752E7900573FFE /* Frameworks */,
+				362A623E20752E7900573FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				362A624220752E7900573FFE /* PBXTargetDependency */,
+			);
+			name = TripleDApplicationTests;
+			productName = TripleDApplicationTests;
+			productReference = 362A624020752E7900573FFE /* TripleDApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		362A624A20752E7900573FFE /* TripleDApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 362A625A20752E7900573FFE /* Build configuration list for PBXNativeTarget "TripleDApplicationUITests" */;
+			buildPhases = (
+				362A624720752E7900573FFE /* Sources */,
+				362A624820752E7900573FFE /* Frameworks */,
+				362A624920752E7900573FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				362A624D20752E7900573FFE /* PBXTargetDependency */,
+			);
+			name = TripleDApplicationUITests;
+			productName = TripleDApplicationUITests;
+			productReference = 362A624B20752E7900573FFE /* TripleDApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		362A622420752E7900573FFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Daniela Alvarez Ulloa";
+				TargetAttributes = {
+					362A622B20752E7900573FFE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					362A623F20752E7900573FFE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 362A622B20752E7900573FFE;
+					};
+					362A624A20752E7900573FFE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 362A622B20752E7900573FFE;
+					};
+				};
+			};
+			buildConfigurationList = 362A622720752E7900573FFE /* Build configuration list for PBXProject "TripleDApplication" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 362A622320752E7900573FFE;
+			productRefGroup = 362A622D20752E7900573FFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				362A622B20752E7900573FFE /* TripleDApplication */,
+				362A623F20752E7900573FFE /* TripleDApplicationTests */,
+				362A624A20752E7900573FFE /* TripleDApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		362A622A20752E7900573FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362A623A20752E7900573FFE /* LaunchScreen.storyboard in Resources */,
+				36F28CF5208E842A00D6BD62 /* smallLogo.png in Resources */,
+				362A625E2075307600573FFE /* main_logo.png in Resources */,
+				362A623720752E7900573FFE /* Assets.xcassets in Resources */,
+				362A623520752E7900573FFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362A623E20752E7900573FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362A624920752E7900573FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		362A622820752E7900573FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F28CF3208A896200D6BD62 /* RestaurantTableViewCell.swift in Sources */,
+				362A626020753A0600573FFE /* TripleDMainViewController.swift in Sources */,
+				361C2B1920911B23008C60EC /* RestuarantDetailViewController.swift in Sources */,
+				366E55C82093B21E00EBFE24 /* NearMeTableViewCell.swift in Sources */,
+				36E74084209A4C5C0014BA41 /* NearMe50TableViewController.swift in Sources */,
+				361C2B112090FEDF008C60EC /* DinerTableViewController.swift in Sources */,
+				366E55CC20979BFD00EBFE24 /* PinAnnotation.swift in Sources */,
+				36F03A8320882F3A00845A6C /* RestaurantModel.swift in Sources */,
+				36F03A8520882F6A00845A6C /* RestaurantTableViewController.swift in Sources */,
+				36E74088209A51130014BA41 /* NearMeTabBarVC.swift in Sources */,
+				361C2B132090FFAF008C60EC /* DinerTableViewCell.swift in Sources */,
+				362A623020752E7900573FFE /* AppDelegate.swift in Sources */,
+				36CAB1B8209271F2004FBA6F /* DinerDetailViewController.swift in Sources */,
+				366E55C42093B14800EBFE24 /* NearMeDetailViewController.swift in Sources */,
+				36CAB1BA20929891004FBA6F /* NearMeTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362A623C20752E7900573FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362A624520752E7900573FFE /* TripleDApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362A624720752E7900573FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362A625020752E7900573FFE /* TripleDApplicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		362A624220752E7900573FFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 362A622B20752E7900573FFE /* TripleDApplication */;
+			targetProxy = 362A624120752E7900573FFE /* PBXContainerItemProxy */;
+		};
+		362A624D20752E7900573FFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 362A622B20752E7900573FFE /* TripleDApplication */;
+			targetProxy = 362A624C20752E7900573FFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		362A623320752E7900573FFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				362A623420752E7900573FFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		362A623820752E7900573FFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				362A623920752E7900573FFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		362A625220752E7900573FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		362A625320752E7900573FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		362A625520752E7900573FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XNR442259;
+				INFOPLIST_FILE = TripleDApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daniela.TripleDApplication3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		362A625620752E7900573FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XNR442259;
+				INFOPLIST_FILE = TripleDApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daniela.TripleDApplication3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		362A625820752E7900573FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TripleDApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daniela.TripleDApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripleDApplication.app/TripleDApplication";
+			};
+			name = Debug;
+		};
+		362A625920752E7900573FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TripleDApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daniela.TripleDApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripleDApplication.app/TripleDApplication";
+			};
+			name = Release;
+		};
+		362A625B20752E7900573FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TripleDApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daniela.TripleDApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TripleDApplication;
+			};
+			name = Debug;
+		};
+		362A625C20752E7900573FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TripleDApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daniela.TripleDApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TripleDApplication;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		362A622720752E7900573FFE /* Build configuration list for PBXProject "TripleDApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362A625220752E7900573FFE /* Debug */,
+				362A625320752E7900573FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		362A625420752E7900573FFE /* Build configuration list for PBXNativeTarget "TripleDApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362A625520752E7900573FFE /* Debug */,
+				362A625620752E7900573FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		362A625720752E7900573FFE /* Build configuration list for PBXNativeTarget "TripleDApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362A625820752E7900573FFE /* Debug */,
+				362A625920752E7900573FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		362A625A20752E7900573FFE /* Build configuration list for PBXNativeTarget "TripleDApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362A625B20752E7900573FFE /* Debug */,
+				362A625C20752E7900573FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 362A622420752E7900573FFE /* Project object */;
+}
